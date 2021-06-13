@@ -1,0 +1,12 @@
+package com.designmode.decorator.third;
+
+/**
+ * @author 王辉
+ * @date 2021/6/9 - 18:27
+ */
+public class Sneakers extends Finery {
+    public void show(){
+        super.show();
+        System.out.println("破球鞋");
+    }
+}
